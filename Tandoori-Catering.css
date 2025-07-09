@@ -230,6 +230,9 @@ form button:hover{
     color: whitesmoke;
     z-index: 1;
 }
+#carousel{
+    padding: 60px 0;
+}
 
 .carousel::before {
     content: '';
@@ -259,53 +262,74 @@ form button:hover{
     object-fit: cover;
 }
 
+.testimonials-section {
+  background-color: #fff;
+  color: #333;
+}
 
+.testimonial {
+  max-width: 700px;
+  margin: auto;
+  font-style: italic;
+  font-size: 18px;
+}
 
+.section-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
 
+.section-title {
+  font-size: 32px;
+  font-family: 'Cinzel', serif;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  display: inline-block;
+  padding: 10px 20px;
+}
 
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  padding: 40px 60px;
+  font-family: 'Georgia', serif;
+}
 
+.contact-info {
+  max-width: 45%;
+  color: #444;
+}
 
+.contact-info h2 {
+  color: #d6a545;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
 
+.contact-info hr {
+  width: 60px;
+  border: 1px solid #eee;
+  margin: 10px 0 20px;
+}
 
+.contact-info p {
+  font-size: 14px;
+  margin: 10px 0;
+}
 
+.contact-info i {
+  margin-right: 10px;
+  color: #666;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.map {
+  max-width: 50%;
+}
 
 
 

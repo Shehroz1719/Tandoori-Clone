@@ -1,0 +1,573 @@
+/* CSS code with updated class names matching HTML */
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+/* @font-face {
+    font-family: Poppins;
+    src: url(/Sources/Fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/Sources/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(/Sources/Fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+} */
+
+/* header styles */
+header {
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: #1b2024;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav a:hover {
+    color: #D1A054;
+    transition: 0.8s;
+}
+
+/* hero section */
+.section-hero {
+    height: 500px;
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991704/hero-sec-bg_k4rr7e.png) center / cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-hero h1 {
+    color: whitesmoke;
+    font-family: "Cinzel", serif;
+    font-size: 54px;
+}
+
+.section-hero p {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    margin-top: 12px;
+}
+
+.section-hero button {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    margin-top: 25px;
+    padding: 12px 42px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+}
+
+.section-hero button:hover {
+    background-color: whitesmoke;
+    color: #1b2024;
+    transition: 0.5s;
+}
+
+/* new arrivals section */
+.section-new-arrivals {
+    height: 1000px;
+}
+
+.section-new-arrivals h2 {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+
+.new-arrivals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chargha-image-1,
+.chargha-image-2,
+.chargha-text {
+    border: 2px solid #D1A054;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+}
+
+.chargha-image-1 {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991712/tandoori-chargha1_ayyfde.jpg) center / cover no-repeat;
+}
+
+.chargha-text {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991696/chargha_jcp6g3.jpg) center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.chargha-text p {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 10px;
+    font-family: "Cinzel", serif;
+}
+
+.chargha-image-2 {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991714/TANDOORI-CHARGHA_gmihq6.jpg) center / cover no-repeat;
+}
+
+/* hi-tea section */
+.hi-tea-buffet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starter-card,
+.chinese-card,
+.desi-card {
+    border: 2px solid #D1A054;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.starter-card {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991736/starters_lprwz3.jpg) center / cover no-repeat;
+}
+
+.chinese-card {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991701/chinese_xxdt1o.jpg) center / cover no-repeat;
+}
+
+.desi-card {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991703/desi_r8vnux.jpg) center / cover no-repeat;
+}
+
+.hi-tea-buffet p {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    color: whitesmoke;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: "Cinzel", serif;
+}
+
+/* delivery section */
+.section-delivery {
+    height: 300px;
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991718/2_lprfh6.png) center / cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-delivery h2,
+.section-delivery p,
+.section-delivery button {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-delivery p {
+    width: 750px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.section-delivery button {
+    margin-top: 25px;
+    padding: 12px 42px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+}
+
+.section-delivery button:hover {
+    background-color: whitesmoke;
+    color: #1b2024;
+    transition: 0.5s;
+}
+
+/* specialities section */
+.section-specials {
+    height: 1000px;
+}
+
+.section-specials h2 {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+
+.speciality-cards,
+.cuisine-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biryani-card,
+.bbq-card,
+.karahi-card,
+.cuisine-chinese,
+.cuisine-pakistani,
+.cuisine-continental {
+    border: 2px solid #D1A054;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.biryani-card {
+    background-image: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991704/dum-biryani_j16fgr.jpg);
+}
+
+.bbq-card {
+    background-image: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991697/BBQ-Platter_abs5tm.jpg);
+}
+
+.karahi-card {
+    background-image: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991697/chicken-karahi_yg3vs5.jpg);
+}
+
+.cuisine-chinese {
+    background-image: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991707/chinese-cuisine_vahdml.jpg);
+}
+
+.cuisine-pakistani {
+    background-image: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991707/pakistani-cuisine-1_ekws1o.jpg);
+}
+
+.cuisine-continental {
+    background-image: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991700/continental-cuisine-1_qqhfcx.jpg);
+}
+
+.speciality-cards p,
+.cuisine-cards p {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: "Cinzel", serif;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* order now section */
+.section-call {
+    height: 300px;
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991714/Untitled_design_3_tqktfj.png) center / cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-call h2 {
+    color: whitesmoke;
+    font-family: "Cinzel", serif;
+    font-size: 40px;
+}
+
+.section-call button {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    margin-top: 25px;
+    padding: 12px 100px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+}
+
+.section-call button:hover {
+    background-color: whitesmoke;
+    color: #1b2024;
+    transition: 0.5s;
+}
+
+/* celebrating section */
+.section-anniversary {
+    height: 400px;
+    background-color: #F5F2F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-anniversary h2 {
+    color: rgb(12, 12, 12);
+    font-family: "Cinzel", serif;
+    font-size: 44px;
+}
+
+.section-anniversary p {
+    color: grey;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    width: 750px;
+    font-weight: lighter;
+}
+
+.section-anniversary button {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin-top: 25px;
+    padding: 12px 42px;
+    background-color: #cc9955;
+    border-radius: 50px;
+    border: 1px solid #cc9955;
+}
+
+.section-anniversary button:hover {
+    background-color: #ffffff;
+    color: #1b2024;
+    transition: 0.5s;
+}
+
+/* catering section */
+.section-catering {
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.section-catering h2 {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+
+.catering-options {
+    display: flex;
+    justify-content: center;
+}
+
+.wedding-card,
+.corporate-card,
+.banquet-card {
+    border: 2px solid #D1A054;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wedding-card {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991714/wedding-23_jmupc2.jpg);
+}
+
+.corporate-card {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991700/corporate-1_rll3xb.jpg);
+}
+
+.banquet-card {
+    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991688/bbbbban_vkvltr.jpg);
+}
+
+.catering-options p {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: "Cinzel", serif;
+}
+
+.catering-cta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catering-cta p {
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.catering-cta button {
+    padding: 12px 42px;
+    font-family: "Poppins", sans-serif;
+    background-color: #cc9955;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.catering-cta button:hover {
+    background-color: white;
+    border: 1px solid #cc9955;
+    color: black;
+}
+
+/* segment logos */
+.segment-logos-heading {
+    padding-top: 30px;
+    font-size: 40px !important;
+    text-align: center;
+}
+
+.segment-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.segment-logos .icon img {
+    width: 130px;
+    padding: 40px;
+}
+
+/* footer */
+.footer-main {
+    background-color: #1b2024;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact,
+.footer-social {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.footer-about img.footer-logo {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    max-width: 300px;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+    color: #cc9955;
+    font-family: "Cinzel", serif;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #cc9955;
+    transition: 0.3s;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.social-icons i {
+    margin-right: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    background-color: #161a1e;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #ccc;
+}

@@ -1,421 +1,421 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-/* @font-face {
-    font-family: "Poppins", sans-serif;
-    src: url(/Sources/Fonts/Poppins/Poppins-Medium.ttf);
-}
+    /* @font-face {
+        font-family: "Poppins", sans-serif;
+        src: url(/Sources/Fonts/Poppins/Poppins-Medium.ttf);
+    }
 
-@font-face {
-    font-family: Montserrat;
-    src: url(/Sources/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
-}
+    @font-face {
+        font-family: Montserrat;
+        src: url(/Sources/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    }
 
-@font-face {
-    font-family: Cinzel;
-    src: url(/Sources/Fonts/Cinzel/static/Cinzel-Medium.ttf);
-} */
+    @font-face {
+        font-family: Cinzel;
+        src: url(/Sources/Fonts/Cinzel/static/Cinzel-Medium.ttf);
+    } */
 
-h1,h2,h3{
-    font-family: "Cinzel", serif;
-}
-p{
-    font-family: "Poppins", sans-serif;
-}
+    h1,h2,h3{
+        font-family: "Cinzel", serif;
+    }
+    p{
+        font-family: "Poppins", sans-serif;
+    }
 
-/* header styles */
-header {
-    height: 100px;
-    position: sticky;
-    top: 0;
-    background-color: #1b2024;
-}
+    /* header styles */
+    header {
+        height: 100px;
+        position: sticky;
+        top: 0;
+        background-color: #1b2024;
+    }
 
-nav {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+    nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
-nav ul {
-    display: flex;
-}
+    nav ul {
+        display: flex;
+    }
 
-nav li {
-    padding: 20px;
-    list-style: none;
-}
+    nav li {
+        padding: 20px;
+        list-style: none;
+    }
 
-nav a {
-    color: antiquewhite;
-    text-decoration: none;
-    font-size: 13px;
-    font-family: "Montserrat", sans-serif;
-}
+    nav a {
+        color: antiquewhite;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: "Montserrat", sans-serif;
+    }
 
-nav a:hover {
-    color: #D1A054;
-    transition: 0.8s;
-}
+    nav a:hover {
+        color: #D1A054;
+        transition: 0.8s;
+    }
 
-.hero-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991707/retirement-party-420x280_f1wqhr.jpg) center / cover no-repeat fixed;
-    height: 600px;
-}
-.hero-section-frame-1{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 600px;
-    width: 48vw;
-}
-.hero-section-frame-1 h1{
-    color: whitesmoke;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-.hero-section-frame-1 p{
-    color: whitesmoke;
-    /* align-self: self-start; */
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-.hero-section-frame-1 button{
-    /* align-self: self-start; */
-    padding: 15px 25px 15px 25px;
-    border-radius: 50px;
-    border: none;
-    border: 2px solid #cc9955;
-    background-color: #cc9955;
-    color: whitesmoke;
-}
-.hero-section-frame-1 button:hover{
-    background-color: rgba( 0, 0, 0, 0);
-    transition: 0.5s;
-}
-.hero-section-frame-2{
-    height: 100%;
-    width: 48%;
-}
-.hero-section-frame-2 form{
-    margin-top: 10px;
-    height: 500px;
-    background-color: #ccc;
-    width: 450px;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.hero-section-frame-2 form h2{
-    text-align: center;
-    margin-bottom: 22px;
-    font-size: 30px;
-}
-form input{
-    height: 25px;
-    padding: 5px;
+    .hero-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991707/retirement-party-420x280_f1wqhr.jpg) center / cover no-repeat fixed;
+        height: 600px;
+    }
+    .hero-section-frame-1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 600px;
+        width: 48vw;
+    }
+    .hero-section-frame-1 h1{
+        color: whitesmoke;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .hero-section-frame-1 p{
+        color: whitesmoke;
+        /* align-self: self-start; */
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .hero-section-frame-1 button{
+        /* align-self: self-start; */
+        padding: 15px 25px 15px 25px;
+        border-radius: 50px;
+        border: none;
+        border: 2px solid #cc9955;
+        background-color: #cc9955;
+        color: whitesmoke;
+    }
+    .hero-section-frame-1 button:hover{
+        background-color: rgba( 0, 0, 0, 0);
+        transition: 0.5s;
+    }
+    .hero-section-frame-2{
+        height: 100%;
+        width: 48%;
+    }
+    .hero-section-frame-2 form{
+        margin-top: 10px;
+        height: 500px;
+        background-color: #ccc;
+        width: 450px;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section-frame-2 form h2{
+        text-align: center;
+        margin-bottom: 22px;
+        font-size: 30px;
+    }
+    form input{
+        height: 25px;
+        padding: 5px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+    .Slection{
+        padding: 10px;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 20px;
+    }
+    .textarea{
+        height: 120px;
+        font-size: 14px;
+        padding: 5px;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 20px;
+    }
+    form button{
+        background-color: #cc9955;
+        padding: 15px 25px 15px 25px;
+        border: none;
+        border-radius: 50px;
+        margin: 0px 100px;
+        border: 2px solid #cc9955;
+    }
+    form button:hover{
+        background-color: rgba( 0, 0, 0, 0);
+        transition: 0.5s;
+    }
+    .events-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .events-card h2{
+        margin: 20px;
+        font-size: 25px;
+    }
+    .events-card p{
+        font-size: 20px;
+        text-transform: capitalize;
+        margin: 20px 0 ;
+    }
+    .events-card button{
+        margin-bottom: 50px;
+        border: none;
+        background-color: #cc9955;
+        border-radius: 50px;
+        border: 2px solid #cc9955;
+        padding: 10px 15px;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+    }
+    .cards-wraper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .cards{
+        height: 350px;
+        width: 300px;
+        margin: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .cards p{
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100%;
+        background-color: rgba( 0, 0, 0, 0.5);
+        color: whitesmoke;
+        font-size: 30px;
+    }
+
+    .wedding-card {
+        background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991688/bbbbban_vkvltr.jpg) center / cover no-repeat;
+    }
+
+    .corporate-card {
+        background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991704/graduation-party-420x280_f2wz34.jpg) center / cover no-repeat;
+    }
+
+    .banquet-card {
+        background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991714/wedding-23_jmupc2.jpg) center / cover no-repeat;
+    }
+    .carousel{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991706/opening-cermony-420x280_lxrts0.jpg) center / cover no-repeat fixed;
+        color: whitesmoke;
+    }
+    .carousel {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991706/opening-cermony-420x280_lxrts0.jpg) center / cover no-repeat fixed;
+        color: whitesmoke;
+        z-index: 1;
+    }
+    #carousel{
+        padding: 60px 0;
+    }
+
+    .carousel::before {
+        content: '';
+        position: absolute;
+        inset: 0; /* same as top: 0; right: 0; bottom: 0; left: 0 */
+        background: rgba(0, 0, 0, 0.6); /* adjust darkness */
+        z-index: -1; /* send behind content, but in front of bg */
+    }
+
+    .carousel .h2{
+        margin: 20px;
+    }
+    .carousel .p{
+        margin-bottom: 40px;
+        width: 550px;
+        text-align: center;
+    }
+    .cruisel-tytle{
+        background-color: rgba( 0, 0, 0, 0.5);
+    }
+    .carousel img{
+        
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 100%; /* or your desired height */
+        object-fit: cover;
+    }
+
+    .testimonials-section {
+    background-color: #fff;
+    color: #333;
+    }
+
+    .testimonial {
+    max-width: 700px;
+    margin: auto;
+    font-style: italic;
     font-size: 18px;
-    margin-bottom: 20px;
-    font-family: "Poppins", sans-serif;
-}
-.Slection{
-    padding: 10px;
+    }
+
+    .section-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 20px;
-}
-.textarea{
-    height: 120px;
-    font-size: 14px;
-    padding: 5px;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 20px;
-}
-form button{
-    background-color: #cc9955;
-    padding: 15px 25px 15px 25px;
-    border: none;
-    border-radius: 50px;
-    margin: 0px 100px;
-    border: 2px solid #cc9955;
-}
-form button:hover{
-    background-color: rgba( 0, 0, 0, 0);
-    transition: 0.5s;
-}
-.events-card{
+    }
+
+    .section-title {
+    font-size: 32px;
+    font-family: 'Cinzel', serif;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+    padding: 10px 20px;
+    }
+
+    .contact-section {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.events-card h2{
-    margin: 20px;
-    font-size: 25px;
-}
-.events-card p{
-    font-size: 20px;
-    text-transform: capitalize;
-    margin: 20px 0 ;
-}
-.events-card button{
-    margin-bottom: 50px;
-    border: none;
-    background-color: #cc9955;
-    border-radius: 50px;
-    border: 2px solid #cc9955;
-    padding: 10px 15px;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-}
-.cards-wraper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    padding: 40px 60px;
+    font-family: 'Georgia', serif;
+    }
 
-.cards{
-    height: 350px;
-    width: 300px;
-    margin: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
+    .contact-info {
+    max-width: 45%;
+    color: #444;
+    }
 
-.cards p{
-    margin-bottom: 10px;
-    text-align: center;
-    width: 100%;
-    background-color: rgba( 0, 0, 0, 0.5);
-    color: whitesmoke;
-    font-size: 30px;
-}
-
-.wedding-card {
-    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991688/bbbbban_vkvltr.jpg) center / cover no-repeat;
-}
-
-.corporate-card {
-    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991704/graduation-party-420x280_f2wz34.jpg) center / cover no-repeat;
-}
-
-.banquet-card {
-    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991714/wedding-23_jmupc2.jpg) center / cover no-repeat;
-}
-.carousel{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991706/opening-cermony-420x280_lxrts0.jpg) center / cover no-repeat fixed;
-    color: whitesmoke;
-}
-.carousel {
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: url(https://res.cloudinary.com/dtgky8fiv/image/upload/v1751991706/opening-cermony-420x280_lxrts0.jpg) center / cover no-repeat fixed;
-    color: whitesmoke;
-    z-index: 1;
-}
-#carousel{
-    padding: 60px 0;
-}
-
-.carousel::before {
-    content: '';
-    position: absolute;
-    inset: 0; /* same as top: 0; right: 0; bottom: 0; left: 0 */
-    background: rgba(0, 0, 0, 0.6); /* adjust darkness */
-    z-index: -1; /* send behind content, but in front of bg */
-}
-
-.carousel .h2{
-    margin: 20px;
-}
-.carousel .p{
-    margin-bottom: 40px;
-    width: 550px;
-    text-align: center;
-}
-.cruisel-tytle{
-    background-color: rgba( 0, 0, 0, 0.5);
-}
-.carousel img{
-    
-}
-.carousel-inner img {
-    width: 100%;
-    height: 100%; /* or your desired height */
-    object-fit: cover;
-}
-
-.testimonials-section {
-  background-color: #fff;
-  color: #333;
-}
-
-.testimonial {
-  max-width: 700px;
-  margin: auto;
-  font-style: italic;
-  font-size: 18px;
-}
-
-.section-subtitle {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  letter-spacing: 1px;
-  font-size: 14px;
-}
-
-.section-title {
-  font-size: 32px;
-  font-family: 'Cinzel', serif;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
-  display: inline-block;
-  padding: 10px 20px;
-}
-
-.contact-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: #f2f2f2;
-  padding: 40px 60px;
-  font-family: 'Georgia', serif;
-}
-
-.contact-info {
-  max-width: 45%;
-  color: #444;
-}
-
-.contact-info h2 {
-  color: #d6a545;
-  font-size: 24px;
-  line-height: 1.4;
-  margin-bottom: 10px;
-}
-
-.contact-info hr {
-  width: 60px;
-  border: 1px solid #eee;
-  margin: 10px 0 20px;
-}
-
-.contact-info p {
-  font-size: 14px;
-  margin: 10px 0;
-}
-
-.contact-info i {
-  margin-right: 10px;
-  color: #666;
-}
-
-.map {
-  max-width: 50%;
-}
-
-
-
-/* //?---------------Footer---------------??// */
-
-
-.footer-main {
-    background-color: #1b2024;
-    color: whitesmoke;
-    font-family: "Poppins", sans-serif;
-}
-
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 40px 20px;
-}
-
-.footer-about,
-.footer-links,
-.footer-contact,
-.footer-social {
-    flex: 1 1 200px;
-    margin: 20px;
-}
-
-.footer-about img.footer-logo {
-    width: 100px;
-    margin-bottom: 15px;
-}
-
-.footer-about p {
-    max-width: 300px;
-}
-
-.footer-links h3,
-.footer-contact h3,
-.footer-social h3 {
-    color: #cc9955;
-    font-family: Cinzel;
-    margin-bottom: 10px;
-}
-
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-links li {
-    margin-bottom: 8px;
-}
-
-.footer-links a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    color: #cc9955;
-    transition: 0.3s;
-}
-
-.footer-contact p {
-    margin: 5px 0;
-}
-
-.social-icons {
+    .contact-info h2 {
+    color: #d6a545;
     font-size: 24px;
-    margin-top: 10px;
-}
+    line-height: 1.4;
+    margin-bottom: 10px;
+    }
 
-.social-icons i {
-    margin-right: 15px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
+    .contact-info hr {
+    width: 60px;
+    border: 1px solid #eee;
+    margin: 10px 0 20px;
+    }
 
-.social-icons i:hover {
-    transform: scale(1.2);
-}
-
-.footer-bottom {
-    background-color: #161a1e;
-    text-align: center;
-    padding: 15px;
+    .contact-info p {
     font-size: 14px;
-    color: #ccc;
-}
+    margin: 10px 0;
+    }
+
+    .contact-info i {
+    margin-right: 10px;
+    color: #666;
+    }
+
+    .map {
+    max-width: 50%;
+    }
+
+
+
+    /* //?---------------Footer---------------??// */
+
+
+    .footer-main {
+        background-color: #1b2024;
+        color: whitesmoke;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 40px 20px;
+    }
+
+    .footer-about,
+    .footer-links,
+    .footer-contact,
+    .footer-social {
+        flex: 1 1 200px;
+        margin: 20px;
+    }
+
+    .footer-about img.footer-logo {
+        width: 100px;
+        margin-bottom: 15px;
+    }
+
+    .footer-about p {
+        max-width: 300px;
+    }
+
+    .footer-links h3,
+    .footer-contact h3,
+    .footer-social h3 {
+        color: #cc9955;
+        font-family: Cinzel;
+        margin-bottom: 10px;
+    }
+
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-links li {
+        margin-bottom: 8px;
+    }
+
+    .footer-links a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        color: #cc9955;
+        transition: 0.3s;
+    }
+
+    .footer-contact p {
+        margin: 5px 0;
+    }
+
+    .social-icons {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .social-icons i {
+        margin-right: 15px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .social-icons i:hover {
+        transform: scale(1.2);
+    }
+
+    .footer-bottom {
+        background-color: #161a1e;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        color: #ccc;
+    }
